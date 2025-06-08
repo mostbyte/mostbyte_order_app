@@ -1,11 +1,11 @@
 {
     "version":"1.1.17",
     "cafe":{
-        "version":"1.1.17",
+        "version":"1.1.18",
         "changes":{
-            "ru":[],
-            "uz":[],
-            "en":[]
+            "ru":["фывафывафыа"],
+            "uz":["asdfasdfasf"],
+            "en":[""]
         }
     },
     "store":{
