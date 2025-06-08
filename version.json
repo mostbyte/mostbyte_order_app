@@ -2,10 +2,18 @@
     "version":"1.1.17",
     "cafe":{
         "version":"1.1.17",
-        "changes":""
+        "changes":{
+            "ru":[],
+            "uz":[],
+            "en":[]
+        }
     },
     "store":{
         "version":"1.1.18",
-        "changes":""
+        "changes":{
+            "ru":[],
+            "uz":[],
+            "en":[]
+        }
     }
 }
