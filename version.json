@@ -2,7 +2,7 @@
     "version": "1.2.0",
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/Mostbyte Order.exe",
     "cafe": {
-        "version": "1.2.0",
+        "version": "1.2.1",
         "min_version": "1.0.0",
         "force_update": false,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/blob/master/cafe/Unipos%20Order.exe",
@@ -25,7 +25,7 @@
         }
     },
     "store": {
-        "version": "1.2.0",
+        "version": "1.2.1",
         "min_version": "1.0.0",
         "force_update": false,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/blob/master/store/Unipos%20Order.exe",
