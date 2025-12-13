@@ -5,7 +5,7 @@
         "version": "1.2.1",
         "min_version": "1.0.0",
         "force_update": false,
-        "download_url": "https://github.com/mostbyte/mostbyte_order_app/blob/master/cafe/Unipos%20Order.exe",
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/cafe/Unipos%20Order.exe",
         "changes": {
             "ru": [
                 "Улучшенная система обновлений",
@@ -28,7 +28,7 @@
         "version": "1.2.1",
         "min_version": "1.0.0",
         "force_update": false,
-        "download_url": "https://github.com/mostbyte/mostbyte_order_app/blob/master/store/Unipos%20Order.exe",
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/store/Unipos%20Order.exe",
         "changes": {
             "ru": [
                 "Улучшенная система обновлений",
