@@ -1,19 +1,50 @@
 {
-    "version":"1.1.19",
-    "cafe":{
-        "version":"1.1.23",
-        "changes":{
-            "ru":[""],
-            "uz":[""],
-            "en":[""]
+    "version": "1.2.0",
+    "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/Mostbyte Order.exe",
+    "cafe": {
+        "version": "1.2.0",
+        "min_version": "1.0.0",
+        "force_update": false,
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/blob/master/cafe/Unipos%20Order.exe",
+        "changes": {
+            "ru": [
+                "Улучшенная система обновлений",
+                "Поддержка демо режима",
+                "Исправления ошибок"
+            ],
+            "uz": [
+                "Yaxshilangan yangilash tizimi",
+                "Demo rejim qo'llab-quvvatlashi",
+                "Xatolarni tuzatish"
+            ],
+            "en": [
+                "Improved update system",
+                "Demo mode support",
+                "Bug fixes"
+            ]
         }
     },
-    "store":{
-        "version":"1.1.18",
-        "changes":{
-            "ru":[],
-            "uz":[],
-            "en":[]
+    "store": {
+        "version": "1.2.0",
+        "min_version": "1.0.0",
+        "force_update": false,
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/blob/master/store/Unipos%20Order.exe",
+        "changes": {
+            "ru": [
+                "Улучшенная система обновлений",
+                "Поддержка демо режима",
+                "Исправления ошибок"
+            ],
+            "uz": [
+                "Yaxshilangan yangilash tizimi",
+                "Demo rejim qo'llab-quvvatlashi",
+                "Xatolarni tuzatish"
+            ],
+            "en": [
+                "Improved update system",
+                "Demo mode support",
+                "Bug fixes"
+            ]
         }
     }
 }
