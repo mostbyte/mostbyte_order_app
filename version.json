@@ -8,34 +8,31 @@
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/cafe/Unipos Order.exe",
     "changes": {
       "ru": [
-        "Изолированный polling для обновления меню (не блокирует основные запросы)",
-        "Автоматическое обновление меню каждые 30 секунд для кассира",
-        "Фильтрация неактивных позиций меню (status=inactive)",
-        "Изолированный polling для публичных заказов",
-        "Раздельные URL загрузки обновлений для cafe/store",
-        "Демо режим перенесён в настройки",
-        "Выход из демо режима для доставщика в drawer",
-        "Исправления ошибок"
+        "Бейджи с количеством заказов на иконках (официанты, доставка, касса)",
+        "Новая кнопка закрытых заказов с зелёным бейджем",
+        "Индикатор обновления перенесён вниз боковой панели",
+        "Кнопка 'Сохранить' для официанта перенаправляет на вход при отсутствии изменений",
+        "Умное форматирование количества (4.0 → 4, 4.12 → 4.12)",
+        "Исправлена ошибка клавиатуры при удалении символов",
+        "Исправления ошибок и оптимизация UI"
       ],
       "uz": [
-        "Menyu yangilanishi uchun izolyatsiyalangan polling (asosiy so'rovlarni bloklamaydi)",
-        "Kassir uchun menyu har 30 soniyada avtomatik yangilanadi",
-        "Nofaol menyu elementlarini filtrlash (status=inactive)",
-        "Ommaviy buyurtmalar uchun izolyatsiyalangan polling",
-        "cafe/store uchun alohida yangilanish URL manzillari",
-        "Demo rejimi sozlamalarga ko'chirildi",
-        "Yetkazib beruvchi uchun demo rejimidan chiqish",
-        "Xatolar tuzatildi"
+        "Ikonkalarda buyurtmalar soni bilan badge (ofitsiant, yetkazib berish, kassa)",
+        "Yashil badge bilan yopilgan buyurtmalar tugmasi",
+        "Yangilanish indikatori yon panelning pastiga ko'chirildi",
+        "Ofitsiant uchun 'Saqlash' tugmasi o'zgarishlar bo'lmaganda login sahifasiga yo'naltiradi",
+        "Miqdorni aqlli formatlash (4.0 → 4, 4.12 → 4.12)",
+        "Klaviaturada belgilarni o'chirishda xato tuzatildi",
+        "Xatolar tuzatildi va UI optimizatsiya qilindi"
       ],
       "en": [
-        "Isolated polling for menu updates (does not block main requests)",
-        "Automatic menu refresh every 30 seconds for cashier",
-        "Filter inactive menu items (status=inactive)",
-        "Isolated polling for public orders",
-        "Separate update download URLs for cafe/store",
-        "Demo mode moved to settings",
-        "Exit demo mode for delivery role in drawer",
-        "Bug fixes"
+        "Order count badges on icons (waiters, delivery, cashier)",
+        "New closed orders button with green badge",
+        "Refresh countdown moved to bottom of sidebar",
+        "Waiter 'Save' button redirects to login when no changes",
+        "Smart quantity formatting (4.0 → 4, 4.12 → 4.12)",
+        "Fixed keyboard backspace error",
+        "Bug fixes and UI optimization"
       ]
     }
   },
@@ -46,22 +43,19 @@
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/store/Unipos%20Order.exe",
         "changes": {
             "ru": [
-                "Отображение ID продукта в списке",
-                "Сообщение при отсутствии товара",
-                "Быстрые кнопки изменения количества",
-                "Исправления ошибок"
+                "Умное форматирование количества (4.0 → 4, 4.12 → 4.12)",
+                "Исправлена ошибка клавиатуры при удалении символов",
+                "Исправления ошибок и оптимизация UI"
             ],
             "uz": [
-                "Ro'yxatda mahsulot ID ko'rsatish",
-                "Mahsulot topilmaganda xabar",
-                "Miqdorni o'zgartirish uchun tezkor tugmalar",
-                "Xatolarni tuzatish"
+                "Miqdorni aqlli formatlash (4.0 → 4, 4.12 → 4.12)",
+                "Klaviaturada belgilarni o'chirishda xato tuzatildi",
+                "Xatolar tuzatildi va UI optimizatsiya qilindi"
             ],
             "en": [
-                "Display product ID in list",
-                "Message when product not found",
-                "Quick buttons for changing quantity",
-                "Bug fixes"
+                "Smart quantity formatting (4.0 → 4, 4.12 → 4.12)",
+                "Fixed keyboard backspace error",
+                "Bug fixes and UI optimization"
             ]
         }
     }
