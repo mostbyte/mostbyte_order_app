@@ -2,37 +2,31 @@
     "version": "1.2.5",
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/Mostbyte Order.exe",
     "cafe": {
-    "version": "1.2.6",
+    "version": "1.2.7",
     "min_version": "1.0.0",
-    "force_update": false,
+    "force_update": true,
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/cafe/Unipos Order.exe",
     "changes": {
       "ru": [
-        "Заказы из других филиалов отображаются в оплате и чеке",
-        "Сумма из филиалов учитывается в расчёте с сервисным процентом",
-        "Панель просмотра бронирований в меню",
-        "Дата брони (book_at) на карточке бронирования",
-        "Блокировка принятия брони до наступления даты",
-        "Название филиала в публичных заказах (вместо компании)",
-        "Исправления ошибок и оптимизация UI"
+        "Логирование активности с синхронизацией на сервер",
+        "Кэширование отделов из меню по филиалам",
+        "Улучшения обработки ошибок",
+        "Исправлена логика смен и ошибки бронирования",
+        "Улучшения на стороне официанта"
       ],
       "uz": [
-        "Boshqa filiallardan buyurtmalar to'lov va chekda ko'rsatiladi",
-        "Filiallar summasi servis foizi bilan hisoblanadi",
-        "Menyuda bronlarni ko'rish paneli",
-        "Bron kartasida bron sanasi (book_at)",
-        "Sana kelguncha bronni qabul qilish bloklangan",
-        "Ommaviy buyurtmalarda filial nomi (kompaniya o'rniga)",
-        "Xatolar tuzatildi va UI optimizatsiya qilindi"
+        "Serverga sinxronizatsiya bilan faoliyatni qayd qilish",
+        "Filiallar bo'yicha menyudan bo'limlarni keshlash",
+        "Xatolarni qayta ishlash yaxshilandi",
+        "Smena mantiqiy va bron xatolari tuzatildi",
+        "Ofitsiant tomonidagi yaxshilanishlar"
       ],
       "en": [
-        "Orders from other branches displayed in payment and receipt",
-        "Branch orders sum included in service percent calculation",
-        "Booking orders panel in menu",
-        "Booking date (book_at) shown on booking card",
-        "Accept button blocked until booking date",
-        "Filial name in public orders (instead of company)",
-        "Bug fixes and UI optimization"
+        "Activity logging with server sync",
+        "Department caching from menu items per filial",
+        "Error handler service improvements",
+        "Shift logic and booking bug fixes",
+        "Waiter side improvements"
       ]
     }
   },
