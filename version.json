@@ -2,31 +2,31 @@
     "version": "1.2.5",
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/Mostbyte Order.exe",
     "cafe": {
-    "version": "1.2.7",
+    "version": "1.2.8",
     "min_version": "1.0.0",
     "force_update": true,
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/cafe/Unipos Order.exe",
     "changes": {
       "ru": [
-        "Логирование активности с синхронизацией на сервер",
-        "Кэширование отделов из меню по филиалам",
-        "Улучшения обработки ошибок",
-        "Исправлена логика смен и ошибки бронирования",
-        "Улучшения на стороне официанта"
+        "Глобальная настройка виртуальной клавиатуры в настройках",
+        "Мгновенное применение настройки клавиатуры без перезагрузки",
+        "Кнопка проверки обновлений в меню и drawer",
+        "Блокировка устройства по филиалу при авторизации",
+        "Исправлена проблема с department_id при создании заказа"
       ],
       "uz": [
-        "Serverga sinxronizatsiya bilan faoliyatni qayd qilish",
-        "Filiallar bo'yicha menyudan bo'limlarni keshlash",
-        "Xatolarni qayta ishlash yaxshilandi",
-        "Smena mantiqiy va bron xatolari tuzatildi",
-        "Ofitsiant tomonidagi yaxshilanishlar"
+        "Sozlamalarda virtual klaviatura global sozlamasi",
+        "Klaviatura sozlamasini qayta yuklamasdan darhol qo'llash",
+        "Menyu va drawer-da yangilanishlarni tekshirish tugmasi",
+        "Avtorizatsiyada qurilmani filial bo'yicha bloklash",
+        "Buyurtma yaratishda department_id muammosi tuzatildi"
       ],
       "en": [
-        "Activity logging with server sync",
-        "Department caching from menu items per filial",
-        "Error handler service improvements",
-        "Shift logic and booking bug fixes",
-        "Waiter side improvements"
+        "Global virtual keyboard setting in settings",
+        "Instant keyboard setting apply without restart",
+        "Check updates button in menu and drawer",
+        "Device lock by filial on authorization",
+        "Fixed department_id issue when creating order"
       ]
     }
   },
@@ -34,7 +34,7 @@
         "version": "1.2.5",
         "min_version": "1.0.0",
         "force_update": false,
-        "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/store/Unipos%20Order.exe",
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/store/Unipos Order.exe",
         "changes": {
             "ru": [
                 "Умное форматирование количества (4.0 → 4, 4.12 → 4.12)",
