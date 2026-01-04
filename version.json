@@ -1,61 +1,61 @@
 {
-    "version": "1.2.8",
+    "version": "1.2.9",
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/Mostbyte Order.exe",
     "cafe": {
-        "version": "1.2.8",
+        "version": "1.2.9",
         "min_version": "1.0.0",
         "force_update": true,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/cafe/Unipos Order.exe",
         "changes": {
             "ru": [
-                "Добавлен User-Agent с информацией об устройстве и роли",
-                "Глобальная настройка виртуальной клавиатуры в настройках",
-                "Мгновенное применение настройки клавиатуры без перезагрузки",
-                "Кнопка проверки обновлений в меню и drawer",
-                "Блокировка устройства по филиалу при авторизации",
-                "Исправлена проблема с department_id при создании заказа"
+                "Полное логирование всех действий пользователя (43 события)",
+                "Отслеживание скидок, платежей, таймеров столов",
+                "Логирование бронирований и межфилиальных заказов",
+                "Исправлена отправка логов на сервер поддержки",
+                "Оптимизация буферизации и отправки логов"
             ],
             "uz": [
-                "Qurilma va rol haqida ma'lumot bilan User-Agent qo'shildi",
-                "Sozlamalarda virtual klaviatura global sozlamasi",
-                "Klaviatura sozlamasini qayta yuklamasdan darhol qo'llash",
-                "Menyu va drawer-da yangilanishlarni tekshirish tugmasi",
-                "Avtorizatsiyada qurilmani filial bo'yicha bloklash",
-                "Buyurtma yaratishda department_id muammosi tuzatildi"
+                "Foydalanuvchi barcha harakatlarini to'liq loglash (43 ta hodisa)",
+                "Chegirmalar, to'lovlar, stol taymerlari kuzatilmoqda",
+                "Bron qilish va filiallararo buyurtmalarni loglash",
+                "Qo'llab-quvvatlash serveriga loglarni yuborish tuzatildi",
+                "Loglarni buferlash va yuborishni optimallashtirish"
             ],
             "en": [
-                "Added User-Agent with device and role information",
-                "Global virtual keyboard setting in settings",
-                "Instant keyboard setting apply without restart",
-                "Check updates button in menu and drawer",
-                "Device lock by filial on authorization",
-                "Fixed department_id issue when creating order"
+                "Complete user action logging (43 events)",
+                "Tracking discounts, payments, table timers",
+                "Logging bookings and inter-filial orders",
+                "Fixed log sending to support server",
+                "Optimized log buffering and sending"
             ]
         }
     },
     "store": {
-        "version": "1.2.8",
+        "version": "1.2.9",
         "min_version": "1.0.0",
         "force_update": true,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/store/Unipos Order.exe",
         "changes": {
             "ru": [
-                "Добавлен User-Agent с информацией об устройстве и роли",
-                "Умное форматирование количества (4.0 → 4, 4.12 → 4.12)",
-                "Исправлена ошибка клавиатуры при удалении символов",
-                "Исправления ошибок и оптимизация UI"
+                "Полное логирование всех действий пользователя (43 события)",
+                "Отслеживание скидок, платежей, расходов",
+                "Логирование клиентов и долгов",
+                "Исправлена отправка логов на сервер поддержки",
+                "Оптимизация буферизации и отправки логов"
             ],
             "uz": [
-                "Qurilma va rol haqida ma'lumot bilan User-Agent qo'shildi",
-                "Miqdorni aqlli formatlash (4.0 → 4, 4.12 → 4.12)",
-                "Klaviaturada belgilarni o'chirishda xato tuzatildi",
-                "Xatolar tuzatildi va UI optimizatsiya qilindi"
+                "Foydalanuvchi barcha harakatlarini to'liq loglash (43 ta hodisa)",
+                "Chegirmalar, to'lovlar, xarajatlar kuzatilmoqda",
+                "Mijozlar va qarzlarni loglash",
+                "Qo'llab-quvvatlash serveriga loglarni yuborish tuzatildi",
+                "Loglarni buferlash va yuborishni optimallashtirish"
             ],
             "en": [
-                "Added User-Agent with device and role information",
-                "Smart quantity formatting (4.0 → 4, 4.12 → 4.12)",
-                "Fixed keyboard backspace error",
-                "Bug fixes and UI optimization"
+                "Complete user action logging (43 events)",
+                "Tracking discounts, payments, expenses",
+                "Logging clients and debts",
+                "Fixed log sending to support server",
+                "Optimized log buffering and sending"
             ]
         }
     }
