@@ -2,31 +2,25 @@
     "version": "1.2.9",
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/Mostbyte Order.exe",
     "cafe": {
-        "version": "1.2.9",
+        "version": "1.2.10",
         "min_version": "1.0.0",
         "force_update": true,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/cafe/Unipos Order.exe",
         "changes": {
             "ru": [
-                "Полное логирование всех действий пользователя (43 события)",
-                "Отслеживание скидок, платежей, таймеров столов",
-                "Логирование бронирований и межфилиальных заказов",
-                "Исправлена отправка логов на сервер поддержки",
-                "Оптимизация буферизации и отправки логов"
+                "Исправлена проблема остановки опроса",
+                "Блокировка печати чека при несохраненных изменениях",
+                "Исправлена отправка активностей на сервер"
             ],
             "uz": [
-                "Foydalanuvchi barcha harakatlarini to'liq loglash (43 ta hodisa)",
-                "Chegirmalar, to'lovlar, stol taymerlari kuzatilmoqda",
-                "Bron qilish va filiallararo buyurtmalarni loglash",
-                "Qo'llab-quvvatlash serveriga loglarni yuborish tuzatildi",
-                "Loglarni buferlash va yuborishni optimallashtirish"
+                "Polling to'xtatish muammosi tuzatildi",
+                "Saqlanmagan o'zgarishlar bo'lganda chek chop etish bloklandi",
+                "Serverga faoliyatlarni yuborish tuzatildi"
             ],
             "en": [
-                "Complete user action logging (43 events)",
-                "Tracking discounts, payments, table timers",
-                "Logging bookings and inter-filial orders",
-                "Fixed log sending to support server",
-                "Optimized log buffering and sending"
+                "Fixed polling stop problem",
+                "Blocked receipt printing when there are unsaved changes",
+                "Fixed sending activities to server"
             ]
         }
     },
