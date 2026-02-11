@@ -2,37 +2,22 @@
     "version": "1.2.9",
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/Mostbyte Order.exe",
     "cafe": {
-        "version": "1.2.11",
+        "version": "1.2.12",
         "min_version": "1.0.0",
         "force_update": true,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/cafe/Unipos Order.exe",
         "changes": {
             "ru": [
-                "Блокировка изменений заказа по наценкам меню",
-                "Исправлены проблемы с набором доставки",
-                "Исправлена блокировка меню по флагам",
-                "Исправлено меню заказов филиалов и боковая панель",
-                "Исправлены проблемы с меню, убран процент от официанта",
-                "Добавлен фильтр долгов и выбор платежей для долгов",
-                "Исправлен таймер и обратный отсчёт для столов"
+                "Добавлено поле отдела в разницу позиций заказа",
+                "Исправлена печать чеков с правильным отделом"
             ],
             "uz": [
-                "Menyu ustamalariga ko'ra buyurtma o'zgarishlarini bloklash",
-                "Yetkazib berish to'plami muammolari tuzatildi",
-                "Bayroqlar bo'yicha menyu bloklash tuzatildi",
-                "Filial buyurtma menyusi va yon panel tuzatildi",
-                "Menyu muammolari tuzatildi, ofitsiantdan foiz olib tashlandi",
-                "Qarzlar filtri va qarzlar uchun to'lov tanlash qo'shildi",
-                "Stollar uchun taymer va teskari hisob tuzatildi"
+                "Buyurtma pozitsiyalari farqiga bo'lim maydoni qo'shildi",
+                "To'g'ri bo'lim bilan cheklarni chop etish tuzatildi"
             ],
             "en": [
-                "Lock order changes by menu markups",
-                "Fixed delivery set list issues",
-                "Fixed menu blocking by flags",
-                "Fixed filial order menu and sidebar",
-                "Fixed menu issues, removed percent from waiter",
-                "Added debt filter and payment selection for debts",
-                "Fixed table timer and countdown"
+                "Added department field to order items difference",
+                "Fixed receipt printing with correct department"
             ]
         }
     },
