@@ -2,51 +2,45 @@
     "version": "1.2.9",
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/Mostbyte Order.exe",
     "cafe": {
-        "version": "1.2.14",
+        "version": "1.2.15",
         "min_version": "1.0.0",
-        "force_update": true,
+        "force_update": false,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/cafe/Unipos Order.exe",
         "changes": {
             "ru": [
-                "Добавлено поле отдела в разницу позиций заказа",
-                "Исправлена печать чеков с правильным отделом"
+                "Исправлен белый экран при первом запуске на Windows",
+                "Улучшена инициализация окна приложения"
             ],
             "uz": [
-                "Buyurtma pozitsiyalari farqiga bo'lim maydoni qo'shildi",
-                "To'g'ri bo'lim bilan cheklarni chop etish tuzatildi"
+                "Windows'da birinchi ishga tushirishda oq ekran tuzatildi",
+                "Ilova oynasini ishga tushirish yaxshilandi"
             ],
             "en": [
-                "Added department field to order items difference",
-                "Fixed receipt printing with correct department"
+                "Fixed white screen on first launch on Windows",
+                "Improved application window initialization"
             ]
         }
     },
     "store": {
-        "version": "1.2.14",
+        "version": "1.2.15",
         "min_version": "1.0.0",
-        "force_update": true,
+        "force_update": false,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/store/Unipos Order.exe",
         "changes": {
             "ru": [
-                "Полное логирование всех действий пользователя (43 события)",
-                "Отслеживание скидок, платежей, расходов",
-                "Логирование клиентов и долгов",
-                "Исправлена отправка логов на сервер поддержки",
-                "Оптимизация буферизации и отправки логов"
+                "Исправлен белый экран при первом запуске на Windows",
+                "Улучшена инициализация окна приложения",
+                "Убрана проверка остатка на складе при установке количества"
             ],
             "uz": [
-                "Foydalanuvchi barcha harakatlarini to'liq loglash (43 ta hodisa)",
-                "Chegirmalar, to'lovlar, xarajatlar kuzatilmoqda",
-                "Mijozlar va qarzlarni loglash",
-                "Qo'llab-quvvatlash serveriga loglarni yuborish tuzatildi",
-                "Loglarni buferlash va yuborishni optimallashtirish"
+                "Windows'da birinchi ishga tushirishda oq ekran tuzatildi",
+                "Ilova oynasini ishga tushirish yaxshilandi",
+                "Miqdorni belgilashda ombor qoldig'i tekshiruvi olib tashlandi"
             ],
             "en": [
-                "Complete user action logging (43 events)",
-                "Tracking discounts, payments, expenses",
-                "Logging clients and debts",
-                "Fixed log sending to support server",
-                "Optimized log buffering and sending"
+                "Fixed white screen on first launch on Windows",
+                "Improved application window initialization",
+                "Removed storage balance check when setting amount"
             ]
         }
     }
