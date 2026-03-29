@@ -2,22 +2,28 @@
     "version": "1.2.9",
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/Mostbyte Order.exe",
     "cafe": {
-        "version": "1.2.15",
+        "version": "1.2.16",
         "min_version": "1.0.0",
         "force_update": false,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/cafe/Unipos Order.exe",
         "changes": {
             "ru": [
-                "Исправлен белый экран при первом запуске на Windows",
-                "Улучшена инициализация окна приложения"
+                "Исправлены ошибки с ролями пользователей",
+                "Улучшена логика обновления приложения",
+                "Исправлена ссылка на App Store для iOS",
+                "Улучшена гибкая загрузка обновлений на Android"
             ],
             "uz": [
-                "Windows'da birinchi ishga tushirishda oq ekran tuzatildi",
-                "Ilova oynasini ishga tushirish yaxshilandi"
+                "Foydalanuvchi rollari bilan bog'liq xatolar tuzatildi",
+                "Ilovani yangilash mantig'i yaxshilandi",
+                "iOS uchun App Store havolasi tuzatildi",
+                "Android'da moslashuvchan yangilanishni yuklash yaxshilandi"
             ],
             "en": [
-                "Fixed white screen on first launch on Windows",
-                "Improved application window initialization"
+                "Fixed bugs with user roles",
+                "Improved app update logic",
+                "Fixed App Store link for iOS",
+                "Improved flexible update download on Android"
             ]
         }
     },
