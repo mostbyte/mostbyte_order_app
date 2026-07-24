@@ -2,28 +2,34 @@
     "version": "1.2.9",
     "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/Mostbyte Order.exe",
     "cafe": {
-        "version": "1.2.16",
+        "version": "1.2.17",
         "min_version": "1.0.0",
         "force_update": false,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/cafe/Unipos Order.exe",
         "changes": {
             "ru": [
-                "Исправлены ошибки с ролями пользователей",
-                "Улучшена логика обновления приложения",
-                "Исправлена ссылка на App Store для iOS",
-                "Улучшена гибкая загрузка обновлений на Android"
+                "Вызов официанта: добавлены кнопка и диалог заявок с уведомлениями",
+                "Публичные заказы: добавлен диалог отклонения заказа с указанием причины",
+                "Маркировка: поддержка нескольких кодов DataMatrix на позицию, отдельная фискальная строка для каждого кода",
+                "Multikassa: фискализация сервисного сбора для заказов кафе",
+                "Закрытые заказы: переработан экран просмотра",
+                "Чек: учёт флагов меню при печати"
             ],
             "uz": [
-                "Foydalanuvchi rollari bilan bog'liq xatolar tuzatildi",
-                "Ilovani yangilash mantig'i yaxshilandi",
-                "iOS uchun App Store havolasi tuzatildi",
-                "Android'da moslashuvchan yangilanishni yuklash yaxshilandi"
+                "Ofitsiantni chaqirish: so'rovlar tugmasi va dialogi, bildirishnomalar qo'shildi",
+                "Ommaviy buyurtmalar: buyurtmani sabab ko'rsatib rad etish dialogi qo'shildi",
+                "Markirovka: har bir mahsulotga bir nechta DataMatrix kod, har bir kod uchun alohida fiskal qator",
+                "Multikassa: kafe buyurtmalari uchun servis haqini fiskallashtirish",
+                "Yopilgan buyurtmalar: ko'rish ekrani qayta ishlandi",
+                "Chek: chop etishda menyu belgilari hisobga olinadi"
             ],
             "en": [
-                "Fixed bugs with user roles",
-                "Improved app update logic",
-                "Fixed App Store link for iOS",
-                "Improved flexible update download on Android"
+                "Waiter call: added button and requests dialog with notifications",
+                "Public orders: added order rejection dialog with a reason",
+                "Marking: multiple DataMatrix codes per item, separate fiscal line for each code",
+                "Multikassa: service charge fiscalization for cafe orders",
+                "Closed orders: reworked view screen",
+                "Receipt: menu flags are taken into account when printing"
             ]
         }
     },
