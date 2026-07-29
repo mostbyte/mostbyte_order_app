@@ -34,25 +34,25 @@
         }
     },
     "store": {
-        "version": "1.2.15",
+        "version": "1.2.17",
         "min_version": "1.0.0",
         "force_update": false,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/store/Unipos Order.exe",
         "changes": {
             "ru": [
-                "Исправлен белый экран при первом запуске на Windows",
-                "Улучшена инициализация окна приложения",
-                "Убрана проверка остатка на складе при установке количества"
+                "Маркировка: поддержка нескольких кодов DataMatrix на позицию, отдельная фискальная строка для каждого кода",
+                "Multikassa: фискализация сервисного сбора для заказов кафе",
+                "Закрытые заказы: переработан экран просмотра"
             ],
             "uz": [
-                "Windows'da birinchi ishga tushirishda oq ekran tuzatildi",
-                "Ilova oynasini ishga tushirish yaxshilandi",
-                "Miqdorni belgilashda ombor qoldig'i tekshiruvi olib tashlandi"
+                "Markirovka: har bir mahsulotga bir nechta DataMatrix kod, har bir kod uchun alohida fiskal qator",
+                "Multikassa: kafe buyurtmalari uchun servis haqini fiskallashtirish",
+                "Yopilgan buyurtmalar: ko'rish ekrani qayta ishlandi"
             ],
             "en": [
-                "Fixed white screen on first launch on Windows",
-                "Improved application window initialization",
-                "Removed storage balance check when setting amount"
+                "Marking: multiple DataMatrix codes per item, separate fiscal line for each code",
+                "Multikassa: service charge fiscalization for cafe orders",
+                "Closed orders: reworked view screen"
             ]
         }
     }
