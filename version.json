@@ -34,25 +34,28 @@
         }
     },
     "store": {
-        "version": "1.2.17",
+        "version": "1.2.18",
         "min_version": "1.0.0",
-        "force_update": false,
+        "force_update": true,
         "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/store/Unipos Order.exe",
         "changes": {
             "ru": [
-                "Маркировка: поддержка нескольких кодов DataMatrix на позицию, отдельная фискальная строка для каждого кода",
-                "Multikassa: фискализация сервисного сбора для заказов кафе",
-                "Закрытые заказы: переработан экран просмотра"
+                "Локальный каталог: мгновенный поиск товаров по штрихкоду, имени и ID без обращения к серверу",
+                "Локальный каталог: фоновая синхронизация с сервером, устойчивость к повреждению локального кэша",
+                "Индикатор синхронизации каталога с ручным принудительным обновлением по нажатию",
+                "Стабильность: удалена неиспользуемая интеграция Sentry"
             ],
             "uz": [
-                "Markirovka: har bir mahsulotga bir nechta DataMatrix kod, har bir kod uchun alohida fiskal qator",
-                "Multikassa: kafe buyurtmalari uchun servis haqini fiskallashtirish",
-                "Yopilgan buyurtmalar: ko'rish ekrani qayta ishlandi"
+                "Lokal katalog: mahsulotlarni shtrix-kod, nom va ID bo'yicha serverga murojaat qilmasdan tezkor qidirish",
+                "Lokal katalog: server bilan fon sinxronizatsiyasi, lokal keshning buzilishiga chidamlilik",
+                "Bosish orqali qo'lda majburiy yangilanadigan katalog sinxronizatsiyasi indikatori",
+                "Barqarorlik: keraksiz Sentry integratsiyasi olib tashlandi"
             ],
             "en": [
-                "Marking: multiple DataMatrix codes per item, separate fiscal line for each code",
-                "Multikassa: service charge fiscalization for cafe orders",
-                "Closed orders: reworked view screen"
+                "Local catalog: instant product search by barcode, name, and ID without hitting the server",
+                "Local catalog: background sync with the server, resilient to local cache corruption",
+                "Catalog sync indicator with tap-to-force-refresh",
+                "Stability: removed unused Sentry integration"
             ]
         }
     }
