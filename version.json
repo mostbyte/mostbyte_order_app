@@ -1,61 +1,70 @@
 {
-    "version": "1.2.9",
-    "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/Mostbyte Order.exe",
+    "version": "1.2.20",
+    "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.20/Unipos_Order.exe",
     "cafe": {
-        "version": "1.2.17",
+        "version": "1.2.20",
         "min_version": "1.0.0",
         "force_update": false,
-        "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/cafe/Unipos Order.exe",
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.20/Unipos_Order.exe",
         "changes": {
             "ru": [
-                "Вызов официанта: добавлены кнопка и диалог заявок с уведомлениями",
-                "Публичные заказы: добавлен диалог отклонения заказа с указанием причины",
-                "Маркировка: поддержка нескольких кодов DataMatrix на позицию, отдельная фискальная строка для каждого кода",
-                "Multikassa: фискализация сервисного сбора для заказов кафе",
-                "Закрытые заказы: переработан экран просмотра",
-                "Чек: учёт флагов меню при печати"
+                "ТВ: телевизор у стола заранее предупреждает гостя, что осталось 10 и 5 минут, а при продлении времени предупреждение включается снова",
+                "ТВ: телевизоры LG работают без установки приложения на сам телевизор, можно выбрать HDMI-вход, а экраны ожидания и блокировки стали спокойными живыми — так они берегут матрицу",
+                "ТВ: экран стола переключается сразу после сохранения заказа и дальше сам следует таймеру, а каждое включение и выключение сохраняется с указанием сотрудника, смены и тарифа",
+                "Доставка: заказы из Uzum и Yandex Eats приходят в общий список доставки со звуком и уведомлением на станцию — с данными клиента, способом оплаты и курьером, кнопками принять, отклонить и готово",
+                "Вызов официанта: заявки гостей из зала видны на станции, официант получает уведомление и может закрыть заявку или отклонить заказ с указанием причины",
+                "Счёт и чек: официант и кассир видят одну и ту же сумму с учётом скидки, цена стола больше не удваивается в чеке, скидка по лояльности сохраняется в заказе, а при расхождении суммы касса предупреждает и пересчитывает",
+                "Скорость и удобство: вход официанта по ПИН-коду мгновенный, экран заказа больше не подтормаживает и отвечает лёгкой вибрацией, добавлена кнопка быстрого выхода, а список столов обновляется при входе и по кнопке обновления"
             ],
             "uz": [
-                "Ofitsiantni chaqirish: so'rovlar tugmasi va dialogi, bildirishnomalar qo'shildi",
-                "Ommaviy buyurtmalar: buyurtmani sabab ko'rsatib rad etish dialogi qo'shildi",
-                "Markirovka: har bir mahsulotga bir nechta DataMatrix kod, har bir kod uchun alohida fiskal qator",
-                "Multikassa: kafe buyurtmalari uchun servis haqini fiskallashtirish",
-                "Yopilgan buyurtmalar: ko'rish ekrani qayta ishlandi",
-                "Chek: chop etishda menyu belgilari hisobga olinadi"
+                "TV: stol yonidagi televizor mehmonni vaqt tugashiga 10 va 5 daqiqa qolganda ogohlantiradi, vaqt uzaytirilsa ogohlantirish yana ishlaydi",
+                "TV: LG televizorlari televizorga ilova o‘rnatmasdan ishlaydi, HDMI kirishini tanlash mumkin, kutish va bloklash ekranlari esa tinch va jonli bo‘ldi — ekranni asraydi",
+                "TV: buyurtma saqlangan zahoti stol ekrani almashadi va keyin taymerga o‘zi ergashadi, har bir yoqish va o‘chirish xodim, smena va tarif bilan saqlanadi",
+                "Yetkazib berish: Uzum va Yandex Eats buyurtmalari umumiy yetkazib berish ro‘yxatida ovoz va stansiyaga bildirishnoma bilan paydo bo‘ladi — mijoz, to‘lov turi, kuryer va qabul qilish, rad etish, tayyor tugmalari bilan",
+                "Ofitsiantni chaqirish: zaldagi mehmonlarning so‘rovlari stansiyada ko‘rinadi, ofitsiant bildirishnoma oladi va so‘rovni yopishi yoki buyurtmani sabab ko‘rsatib rad etishi mumkin",
+                "Hisob va chek: ofitsiant bilan kassir chegirma hisobga olingan bir xil summani ko‘radi, stol narxi chekda ikki marta qo‘shilmaydi, sodiqlik chegirmasi buyurtmada saqlanadi, summa mos kelmasa kassa ogohlantiradi va qayta hisoblaydi",
+                "Tezlik va qulaylik: ofitsiantning PIN-kod bilan kirishi bir zumda bo‘ladi, buyurtma ekrani sekinlashmaydi va bosishga yengil tebranish bilan javob beradi, tez chiqish tugmasi qo‘shildi, stollar ro‘yxati kirishda va yangilash tugmasi bilan yangilanadi"
             ],
             "en": [
-                "Waiter call: added button and requests dialog with notifications",
-                "Public orders: added order rejection dialog with a reason",
-                "Marking: multiple DataMatrix codes per item, separate fiscal line for each code",
-                "Multikassa: service charge fiscalization for cafe orders",
-                "Closed orders: reworked view screen",
-                "Receipt: menu flags are taken into account when printing"
+                "TVs: the screen at the table warns the guest 10 and 5 minutes before the time runs out, and the warning arms again when the time is extended",
+                "TVs: LG sets now work without installing anything on the TV, you can choose the HDMI input, and the standby and locked screens are calm living screens that protect the panel",
+                "TVs: the table screen switches right after the order is saved and then follows the timer on its own, and every switch on and off is recorded with the employee, shift and tariff",
+                "Delivery: Uzum and Yandex Eats orders arrive in the same delivery list with a sound and a notification on the station, showing the customer, payment type and courier, with Accept, Reject and Ready buttons",
+                "Waiter calls: guest requests from the hall are visible on the station, the waiter gets a notification and can close the request or reject an order with a reason",
+                "Bills and receipts: waiter and cashier now see the same amount with the discount applied, the table charge is no longer added twice on the receipt, the loyalty discount is saved with the order, and the station warns and recalculates when the total does not match the items",
+                "Speed and convenience: waiters sign in with their PIN instantly, the order screen no longer stutters and answers taps with a light vibration, a one-tap logout button was added, and the table list refreshes on entry and from the refresh button"
             ]
         }
     },
     "store": {
-        "version": "1.2.18",
+        "version": "1.2.20",
         "min_version": "1.0.0",
-        "force_update": true,
-        "download_url": "https://github.com/mostbyte/mostbyte_order_app/raw/master/store/Unipos Order.exe",
+        "force_update": false,
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.20/Unipos_Order.exe",
         "changes": {
             "ru": [
-                "Локальный каталог: мгновенный поиск товаров по штрихкоду, имени и ID без обращения к серверу",
-                "Локальный каталог: фоновая синхронизация с сервером, устойчивость к повреждению локального кэша",
-                "Индикатор синхронизации каталога с ручным принудительным обновлением по нажатию",
-                "Стабильность: удалена неиспользуемая интеграция Sentry"
+                "Товары: справочник товаров синхронизируется, сканирование штрихкодов и работа со складом стали заметно быстрее",
+                "Поиск: поиск товара по штрихкоду, названию и коду стал надёжнее — результаты не путаются при быстром вводе, а при сбое видно понятное сообщение вместо пустого экрана",
+                "Маркировка: маркированные товары можно отсканировать по коду DataMatrix, и каждый код отдельной строкой попадает в фискальный чек",
+                "Продажи: кассир видит список закрытых продаж с подробностями по каждой",
+                "Уведомления: станция получает уведомления о новых событиях на Windows, телефоне и Mac",
+                "Печать и обновления: добавлена поддержка новых моделей принтеров, обновление приложения стало проще и надёжнее"
             ],
             "uz": [
-                "Lokal katalog: mahsulotlarni shtrix-kod, nom va ID bo'yicha serverga murojaat qilmasdan tezkor qidirish",
-                "Lokal katalog: server bilan fon sinxronizatsiyasi, lokal keshning buzilishiga chidamlilik",
-                "Bosish orqali qo'lda majburiy yangilanadigan katalog sinxronizatsiyasi indikatori",
-                "Barqarorlik: keraksiz Sentry integratsiyasi olib tashlandi"
+                "Tovarlar: tovarlar ro‘yxati sinxronlanadi, shtrix-kod skanerlash va ombor bilan ishlash sezilarli tezlashdi",
+                "Qidiruv: tovarni shtrix-kod, nomi va kodi bo‘yicha qidirish ishonchli bo‘ldi — tez yozganda natijalar aralashmaydi, xatolik bo‘lsa bo‘sh ekran o‘rniga tushunarli xabar chiqadi",
+                "Markirovka: markirovkalangan tovarlarni DataMatrix kodi bo‘yicha skanerlash mumkin, har bir kod fiskal chekda alohida satr bo‘lib chiqadi",
+                "Sotuvlar: kassir yopilgan sotuvlar ro‘yxatini har biri bo‘yicha batafsil ma’lumot bilan ko‘radi",
+                "Bildirishnomalar: stansiya Windows, telefon va Mac’da yangi voqealar haqida bildirishnoma oladi",
+                "Chop etish va yangilanish: yangi printer modellari qo‘shildi, ilovani yangilash osonroq va ishonchliroq bo‘ldi"
             ],
             "en": [
-                "Local catalog: instant product search by barcode, name, and ID without hitting the server",
-                "Local catalog: background sync with the server, resilient to local cache corruption",
-                "Catalog sync indicator with tap-to-force-refresh",
-                "Stability: removed unused Sentry integration"
+                "Products: the product catalogue stays in sync, and barcode scanning and stock work are noticeably faster",
+                "Search: finding a product by barcode, name or code is more reliable — results no longer get mixed up while typing fast, and a clear message appears instead of an empty screen if something fails",
+                "Marking: marked goods can be scanned by their DataMatrix code, and each code goes onto the fiscal receipt as its own line",
+                "Sales: the cashier can see the list of closed sales with the details of each one",
+                "Notifications: the station receives notifications about new events on Windows, phone and Mac",
+                "Printing and updates: more printer models are supported, and updating the app is simpler and more reliable"
             ]
         }
     }
