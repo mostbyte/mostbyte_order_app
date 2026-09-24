@@ -1,70 +1,55 @@
 {
-    "version": "1.2.22",
-    "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.22/Unipos_Order.exe",
+    "version": "1.2.23",
+    "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.23/Unipos_Order.exe",
     "cafe": {
-        "version": "1.2.22",
+        "version": "1.2.23",
         "min_version": "1.0.0",
         "force_update": false,
-        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.22/Unipos_Order.exe",
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.23/Unipos_Order.exe",
         "changes": {
             "ru": [
-                "Фискализация: касса больше не отключает отправку чеков в налоговую, если в настройках не заполнены реквизиты — чеки регистрируются как обычно, а кнопка ОФД показывает понятную причину и реальный результат отправки",
-                "Возвраты: возврат уходит в налоговую именно как возврат, а не как продажа, и один и тот же чек больше не отправляется повторно",
-                "Чеки: товар без ИКПУ больше не исчезает из чека молча — касса сразу называет позиции, которые нужно дозаполнить, и сумма чека всегда совпадает с оплаченной",
-                "Оплата: добавлен способ «Перечисление», кнопки способов оплаты собраны в удобную сетку",
-                "Контроль персонала: при удалении позиции из заказа и при возврате товара кассир указывает причину",
-                "Меню: товар с необычным описанием со склада больше не мешает загрузке всего меню",
-                "Телевизоры на кухне и в залах: связь держится стабильнее, обрыв Wi-Fi замечается примерно за полминуты, два экрана больше не выбивают друг друга, а настройка и обновление доходят до экрана без переустановки"
+                "Чек смены: вместо строки «Остаток в кассе» теперь показаны незакрытые заказы с разбивкой по давности, чтобы сразу видеть, какие счета давно не оплачены",
+                "Чек смены: наличная часть возврата учитывается в строке «Ушло из кассы», поэтому сумма в кассе сходится с фактической",
+                "Чек смены: добавлена строка «Перечисление» для оплат переводом",
+                "Смены: время открытия и закрытия смены на экране и в чеке показывается по местному времени и совпадает с бумажными записями"
             ],
             "uz": [
-                "Fiskallashtirish: sozlamalarda rekvizitlar to'ldirilmagan bo'lsa ham, kassa endi cheklarni soliqqa yuborishni butunlay o'chirib qo'ymaydi — cheklar odatdagidek ro'yxatdan o'tadi, OFD tugmasi esa aniq sabab va yuborishning haqiqiy natijasini ko'rsatadi",
-                "Qaytarishlar: qaytarish soliqqa aynan qaytarish sifatida ketadi, sotuv sifatida emas, va bitta chek ikkinchi marta yuborilmaydi",
-                "Cheklar: IKPU siz tovar endi chekdan jimgina tushib qolmaydi — kassa to'ldirish kerak bo'lgan pozitsiyalarni darhol aytadi, chek summasi esa doim to'langan summaga mos keladi",
-                "To'lov: «O'tkazma» to'lov turi qo'shildi, to'lov tugmalari qulay tartibda joylashtirildi",
-                "Xodimlar nazorati: buyurtmadan pozitsiyani o'chirishda va tovarni qaytarishda kassir sababini ko'rsatadi",
-                "Menyu: omBordan kelgan g'ayrioddiy tavsifli tovar endi butun menyuning yuklanishiga xalaqit bermaydi",
-                "Oshxona va zaldagi televizorlar: aloqa barqarorroq ushlanadi, Wi-Fi uzilishi taxminan yarim daqiqada aniqlanadi, ikkita ekran bir-birini uzib qo'ymaydi, sozlash va yangilanish esa qayta o'rnatishsiz ekranga yetib boradi"
+                "Smena cheki: «Kassadagi qoldiq» qatori o‘rniga endi yopilmagan buyurtmalar muddati bo‘yicha ko‘rsatiladi, qaysi hisoblar uzoq vaqtdan beri to‘lanmaganini darhol ko‘rish mumkin",
+                "Smena cheki: qaytarishning naqd qismi «Kassadan chiqdi» qatorida hisobga olinadi, shuning uchun kassadagi summa haqiqiy summaga mos keladi",
+                "Smena cheki: pul o‘tkazmasi orqali to‘lovlar uchun «O‘tkazma» qatori qo‘shildi",
+                "Smenalar: smena ochilgan va yopilgan vaqt ekranda va chekda mahalliy vaqt bo‘yicha ko‘rsatiladi va qog‘ozdagi yozuvlarga mos keladi"
             ],
             "en": [
-                "Fiscal receipts: the till no longer switches off sending receipts to the tax service when company details are not filled in — receipts are registered as usual, and the fiscal button now shows a clear reason and the real result of each send",
-                "Refunds: a refund is now reported to the tax service as a refund rather than a sale, and the same receipt is never sent twice",
-                "Receipts: an item without an IKPU code is no longer dropped from the receipt silently — the till names the items that need to be completed, so the receipt total always matches what the guest paid",
-                "Payments: added the «Bank transfer» payment type, with payment buttons arranged in a convenient grid",
-                "Staff control: the cashier now states a reason when removing an item from an order and when refunding goods",
-                "Menu: a product with an unusual description from the warehouse no longer blocks the whole menu from loading",
-                "Kitchen and hall TVs: the connection holds far better, a dropped Wi-Fi is detected in about half a minute, two screens no longer knock each other offline, and setup or updates reach the screen without reinstalling"
+                "Shift receipt: the \"Cash on hand\" line is replaced with open orders grouped by age, so you can instantly see which bills have been unpaid for a long time",
+                "Shift receipt: the cash part of refunds is now counted under \"Cash out\", so the register total matches the actual cash",
+                "Shift receipt: a new \"Bank transfer\" line shows payments made by transfer",
+                "Shifts: shift opening and closing times on screen and on the receipt are shown in local time and match your paper records"
             ]
         }
     },
     "store": {
-        "version": "1.2.22",
+        "version": "1.2.23",
         "min_version": "1.0.0",
         "force_update": false,
-        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.22/Unipos_Order.exe",
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.23/Unipos_Order.exe",
         "changes": {
             "ru": [
-                "Фискализация: касса больше не отключает отправку чеков в налоговую, если в настройках не заполнены реквизиты — чеки регистрируются как обычно, а кнопка ОФД показывает понятную причину и реальный результат отправки",
-                "Возвраты: возврат уходит в налоговую именно как возврат, а не как продажа, и один и тот же чек больше не отправляется повторно",
-                "Чеки: товар без ИКПУ больше не исчезает из чека молча — касса сразу называет позиции, которые нужно дозаполнить, и сумма чека всегда совпадает с оплаченной",
-                "Оплата: добавлен способ «Перечисление», кнопки способов оплаты собраны в удобную сетку",
-                "Контроль персонала: при удалении позиции из чека и при возврате товара кассир указывает причину",
-                "Каталог товаров: товар с необычным описанием со склада больше не мешает загрузке всего списка товаров"
+                "Чек смены: вместо строки «Остаток в кассе» теперь показаны незакрытые заказы с разбивкой по давности",
+                "Чек смены: наличная часть возврата учитывается в строке «Ушло из кассы», поэтому сумма в кассе сходится с фактической",
+                "Чек смены: добавлена строка «Перечисление» для оплат переводом",
+                "Смены: время открытия и закрытия смены на экране и в чеке показывается по местному времени и совпадает с бумажными записями"
             ],
             "uz": [
-                "Fiskallashtirish: sozlamalarda rekvizitlar to'ldirilmagan bo'lsa ham, kassa endi cheklarni soliqqa yuborishni butunlay o'chirib qo'ymaydi — cheklar odatdagidek ro'yxatdan o'tadi, OFD tugmasi esa aniq sabab va yuborishning haqiqiy natijasini ko'rsatadi",
-                "Qaytarishlar: qaytarish soliqqa aynan qaytarish sifatida ketadi, sotuv sifatida emas, va bitta chek ikkinchi marta yuborilmaydi",
-                "Cheklar: IKPU siz tovar endi chekdan jimgina tushib qolmaydi — kassa to'ldirish kerak bo'lgan pozitsiyalarni darhol aytadi, chek summasi esa doim to'langan summaga mos keladi",
-                "To'lov: «O'tkazma» to'lov turi qo'shildi, to'lov tugmalari qulay tartibda joylashtirildi",
-                "Xodimlar nazorati: chekdan pozitsiyani o'chirishda va tovarni qaytarishda kassir sababini ko'rsatadi",
-                "Tovarlar katalogi: omBordan kelgan g'ayrioddiy tavsifli tovar endi butun tovarlar ro'yxatining yuklanishiga xalaqit bermaydi"
+                "Smena cheki: «Kassadagi qoldiq» qatori o‘rniga endi yopilmagan buyurtmalar muddati bo‘yicha ko‘rsatiladi",
+                "Smena cheki: qaytarishning naqd qismi «Kassadan chiqdi» qatorida hisobga olinadi, shuning uchun kassadagi summa haqiqiy summaga mos keladi",
+                "Smena cheki: pul o‘tkazmasi orqali to‘lovlar uchun «O‘tkazma» qatori qo‘shildi",
+                "Smenalar: smena ochilgan va yopilgan vaqt ekranda va chekda mahalliy vaqt bo‘yicha ko‘rsatiladi va qog‘ozdagi yozuvlarga mos keladi"
             ],
             "en": [
-                "Fiscal receipts: the till no longer switches off sending receipts to the tax service when company details are not filled in — receipts are registered as usual, and the fiscal button now shows a clear reason and the real result of each send",
-                "Refunds: a refund is now reported to the tax service as a refund rather than a sale, and the same receipt is never sent twice",
-                "Receipts: an item without an IKPU code is no longer dropped from the receipt silently — the till names the items that need to be completed, so the receipt total always matches what the customer paid",
-                "Payments: added the «Bank transfer» payment type, with payment buttons arranged in a convenient grid",
-                "Staff control: the cashier now states a reason when removing an item from a receipt and when refunding goods",
-                "Product catalogue: a product with an unusual description from the warehouse no longer blocks the whole product list from loading"
+                "Shift receipt: the \"Cash on hand\" line is replaced with open orders grouped by age",
+                "Shift receipt: the cash part of refunds is now counted under \"Cash out\", so the register total matches the actual cash",
+                "Shift receipt: a new \"Bank transfer\" line shows payments made by transfer",
+                "Shifts: shift opening and closing times on screen and on the receipt are shown in local time and match your paper records"
             ]
         }
     }
