@@ -1,55 +1,64 @@
 {
-    "version": "1.2.23",
-    "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.23/Unipos_Order.exe",
+    "version": "1.2.24",
+    "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.24/Unipos_Order.exe",
     "cafe": {
-        "version": "1.2.23",
+        "version": "1.2.24",
         "min_version": "1.0.0",
         "force_update": false,
-        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.23/Unipos_Order.exe",
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.24/Unipos_Order.exe",
         "changes": {
             "ru": [
-                "Чек смены: вместо строки «Остаток в кассе» теперь показаны незакрытые заказы с разбивкой по давности, чтобы сразу видеть, какие счета давно не оплачены",
-                "Чек смены: наличная часть возврата учитывается в строке «Ушло из кассы», поэтому сумма в кассе сходится с фактической",
-                "Чек смены: добавлена строка «Перечисление» для оплат переводом",
-                "Смены: время открытия и закрытия смены на экране и в чеке показывается по местному времени и совпадает с бумажными записями"
+                "Официанты: появился режим личного телефона официанта — вход без отдельной регистрации, удобные вкладки, приём и печать QR-заказов, работа при плохом интернете, блокировка экрана и отвязка телефона администратором",
+                "Смена: в окне смены теперь видны погашения долгов, наличные в кассе, размен при открытии и закрытии, а также заказы, закрытые из админки",
+                "Кухня: в кухонном чеке печатаются этаж и номер стола, чтобы блюда быстрее находили гостя",
+                "QR-заказы: новые заказы и вызовы официанта приходят мгновенно, нажатие на уведомление сразу открывает нужный заказ, а повторные заказы с одного адреса помечаются и их можно отклонить",
+                "Оплата и чеки: закрытие заказа не прерывается при сбое фискализации — данные чека отправляются повторно автоматически, окно оплаты не закрывается при ошибке, а долг не теряется",
+                "Безопасность: PIN-коды сотрудников хранятся надёжнее, а из журналов работы убраны лишние служебные данные",
+                "Стабильность: исправлен сбой при закрытии смены и входе кассира, сообщения об ошибках стали понятнее, в том числе когда склад недоступен"
             ],
             "uz": [
-                "Smena cheki: «Kassadagi qoldiq» qatori o‘rniga endi yopilmagan buyurtmalar muddati bo‘yicha ko‘rsatiladi, qaysi hisoblar uzoq vaqtdan beri to‘lanmaganini darhol ko‘rish mumkin",
-                "Smena cheki: qaytarishning naqd qismi «Kassadan chiqdi» qatorida hisobga olinadi, shuning uchun kassadagi summa haqiqiy summaga mos keladi",
-                "Smena cheki: pul o‘tkazmasi orqali to‘lovlar uchun «O‘tkazma» qatori qo‘shildi",
-                "Smenalar: smena ochilgan va yopilgan vaqt ekranda va chekda mahalliy vaqt bo‘yicha ko‘rsatiladi va qog‘ozdagi yozuvlarga mos keladi"
+                "Ofitsiantlar: ofitsiantning shaxsiy telefoni rejimi qo'shildi — alohida ro'yxatdan o'tmasdan kirish, qulay bo'limlar, QR-buyurtmalarni qabul qilish va chop etish, internet yomon bo'lganda ishlash, ekranni bloklash va administrator tomonidan telefonni uzish",
+                "Smena: smena oynasida endi qarzlarni to'lash, kassadagi naqd pul, smena ochilishi va yopilishidagi mayda pul hamda admin paneldan yopilgan buyurtmalar ko'rinadi",
+                "Oshxona: oshxona chekida qavat va stol raqami chop etiladi, taomlar mehmonga tezroq yetib boradi",
+                "QR-buyurtmalar: yangi buyurtmalar va ofitsiant chaqiruvlari darhol keladi, bildirishnomani bosish kerakli buyurtmani ochadi, bitta manzildan kelgan takroriy buyurtmalar belgilanadi va ularni rad etish mumkin",
+                "To'lov va cheklar: fiskallashtirishda xatolik bo'lsa ham buyurtma yopiladi — chek ma'lumotlari avtomatik qayta yuboriladi, xatolikda to'lov oynasi yopilmaydi va qarz yo'qolmaydi",
+                "Xavfsizlik: xodimlarning PIN-kodlari ishonchliroq saqlanadi, ish jurnallaridan ortiqcha xizmat ma'lumotlari olib tashlandi",
+                "Barqarorlik: smenani yopish va kassir kirishidagi nosozlik tuzatildi, xato xabarlari, jumladan ombor mavjud bo'lmaganda, tushunarliroq bo'ldi"
             ],
             "en": [
-                "Shift receipt: the \"Cash on hand\" line is replaced with open orders grouped by age, so you can instantly see which bills have been unpaid for a long time",
-                "Shift receipt: the cash part of refunds is now counted under \"Cash out\", so the register total matches the actual cash",
-                "Shift receipt: a new \"Bank transfer\" line shows payments made by transfer",
-                "Shifts: shift opening and closing times on screen and on the receipt are shown in local time and match your paper records"
+                "Waiters: new personal waiter phone mode — sign in without separate registration, handy tabs, accept and print QR orders, keep working on a weak connection, screen lock and remote unlinking by the administrator",
+                "Shift: the shift window now shows debt repayments, cash in the register, change at shift opening and closing, and orders closed from the admin panel",
+                "Kitchen: kitchen tickets now include the floor and table number so dishes reach guests faster",
+                "QR orders: new orders and waiter calls arrive instantly, tapping a notification opens the right order, and repeat orders from the same address are flagged and can be declined",
+                "Payments and receipts: orders close even if fiscalization fails — receipt data is resent automatically, the payment window stays open on errors, and debts are never lost",
+                "Security: staff PIN codes are stored more securely and unnecessary technical data has been removed from logs",
+                "Stability: fixed a crash when closing a shift or signing in as a cashier, and error messages are clearer, including when the warehouse is unavailable"
             ]
         }
     },
     "store": {
-        "version": "1.2.23",
+        "version": "1.2.24",
         "min_version": "1.0.0",
         "force_update": false,
-        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.23/Unipos_Order.exe",
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.24/Unipos_Order.exe",
         "changes": {
             "ru": [
-                "Чек смены: вместо строки «Остаток в кассе» теперь показаны незакрытые заказы с разбивкой по давности",
-                "Чек смены: наличная часть возврата учитывается в строке «Ушло из кассы», поэтому сумма в кассе сходится с фактической",
-                "Чек смены: добавлена строка «Перечисление» для оплат переводом",
-                "Смены: время открытия и закрытия смены на экране и в чеке показывается по местному времени и совпадает с бумажными записями"
+                "Смена: в окне смены теперь видны погашения долгов, наличные в кассе, размен при открытии и закрытии, а также продажи, закрытые из админки",
+                "Оплата и чеки: продажа не прерывается при сбое фискализации — данные чека отправляются повторно автоматически, окно оплаты не закрывается при ошибке, а долг не теряется",
+                "Безопасность: PIN-коды сотрудников хранятся надёжнее, а из журналов работы убраны лишние служебные данные",
+                "Стабильность: исправлен сбой при закрытии смены и входе кассира, сообщения об ошибках стали понятнее, в том числе когда склад недоступен"
             ],
             "uz": [
-                "Smena cheki: «Kassadagi qoldiq» qatori o‘rniga endi yopilmagan buyurtmalar muddati bo‘yicha ko‘rsatiladi",
-                "Smena cheki: qaytarishning naqd qismi «Kassadan chiqdi» qatorida hisobga olinadi, shuning uchun kassadagi summa haqiqiy summaga mos keladi",
-                "Smena cheki: pul o‘tkazmasi orqali to‘lovlar uchun «O‘tkazma» qatori qo‘shildi",
-                "Smenalar: smena ochilgan va yopilgan vaqt ekranda va chekda mahalliy vaqt bo‘yicha ko‘rsatiladi va qog‘ozdagi yozuvlarga mos keladi"
+                "Smena: smena oynasida endi qarzlarni to'lash, kassadagi naqd pul, smena ochilishi va yopilishidagi mayda pul hamda admin paneldan yopilgan sotuvlar ko'rinadi",
+                "To'lov va cheklar: fiskallashtirishda xatolik bo'lsa ham sotuv yakunlanadi — chek ma'lumotlari avtomatik qayta yuboriladi, xatolikda to'lov oynasi yopilmaydi va qarz yo'qolmaydi",
+                "Xavfsizlik: xodimlarning PIN-kodlari ishonchliroq saqlanadi, ish jurnallaridan ortiqcha xizmat ma'lumotlari olib tashlandi",
+                "Barqarorlik: smenani yopish va kassir kirishidagi nosozlik tuzatildi, xato xabarlari, jumladan ombor mavjud bo'lmaganda, tushunarliroq bo'ldi"
             ],
             "en": [
-                "Shift receipt: the \"Cash on hand\" line is replaced with open orders grouped by age",
-                "Shift receipt: the cash part of refunds is now counted under \"Cash out\", so the register total matches the actual cash",
-                "Shift receipt: a new \"Bank transfer\" line shows payments made by transfer",
-                "Shifts: shift opening and closing times on screen and on the receipt are shown in local time and match your paper records"
+                "Shift: the shift window now shows debt repayments, cash in the register, change at shift opening and closing, and sales closed from the admin panel",
+                "Payments and receipts: sales complete even if fiscalization fails — receipt data is resent automatically, the payment window stays open on errors, and debts are never lost",
+                "Security: staff PIN codes are stored more securely and unnecessary technical data has been removed from logs",
+                "Stability: fixed a crash when closing a shift or signing in as a cashier, and error messages are clearer, including when the warehouse is unavailable"
             ]
         }
     }
