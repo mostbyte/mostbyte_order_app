@@ -37,28 +37,34 @@
         }
     },
     "store": {
-        "version": "1.2.24",
+        "version": "1.2.25",
         "min_version": "1.0.0",
         "force_update": false,
-        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.24/Unipos_Order.exe",
+        "download_url": "https://github.com/mostbyte/mostbyte_order_app/releases/download/v1.2.25/Unipos_Order.exe",
         "changes": {
             "ru": [
-                "Смена: в окне смены теперь видны погашения долгов, наличные в кассе, размен при открытии и закрытии, а также продажи, закрытые из админки",
-                "Оплата и чеки: продажа не прерывается при сбое фискализации — данные чека отправляются повторно автоматически, окно оплаты не закрывается при ошибке, а долг не теряется",
-                "Безопасность: PIN-коды сотрудников хранятся надёжнее, а из журналов работы убраны лишние служебные данные",
-                "Стабильность: исправлен сбой при закрытии смены и входе кассира, сообщения об ошибках стали понятнее, в том числе когда склад недоступен"
+                "Работа без интернета: касса продолжает продавать при обрыве связи, чеки сохраняются на устройстве и отправляются сами, когда связь вернётся",
+                "Неотправленные чеки: отдельный экран и окно при закрытии смены и выходе со сводкой чеков, сумм и состояния отправки; смена не закроется, пока чеки не отправлены",
+                "Оплата: закрытие чека больше не зависает при плохом интернете и не создаёт дублей при повторной оплате, печать и фискализация идут в фоне",
+                "Остатки склада: при нехватке товара продажа останавливается, продать в обход можно по PIN-коду ответственного сотрудника",
+                "Сканер штрихкодов: исправлены вылет при повторном скане, потеря фокуса и случайное нажатие кнопки выхода, символы читаются верно при любой раскладке",
+                "Плитка быстрого доступа: название товара видно целиком в две строки, цена не обрезается, фото товаров загружаются быстрее"
             ],
             "uz": [
-                "Smena: smena oynasida endi qarzlarni to'lash, kassadagi naqd pul, smena ochilishi va yopilishidagi mayda pul hamda admin paneldan yopilgan sotuvlar ko'rinadi",
-                "To'lov va cheklar: fiskallashtirishda xatolik bo'lsa ham sotuv yakunlanadi — chek ma'lumotlari avtomatik qayta yuboriladi, xatolikda to'lov oynasi yopilmaydi va qarz yo'qolmaydi",
-                "Xavfsizlik: xodimlarning PIN-kodlari ishonchliroq saqlanadi, ish jurnallaridan ortiqcha xizmat ma'lumotlari olib tashlandi",
-                "Barqarorlik: smenani yopish va kassir kirishidagi nosozlik tuzatildi, xato xabarlari, jumladan ombor mavjud bo'lmaganda, tushunarliroq bo'ldi"
+                "Internetsiz ishlash: aloqa uzilganda kassa sotishda davom etadi, cheklar qurilmada saqlanadi va aloqa tiklanganda o'zi yuboriladi",
+                "Yuborilmagan cheklar: alohida ekran hamda smenani yopish va chiqishda cheklar, summalar va yuborish holati ko'rsatilgan oyna; cheklar yuborilmaguncha smena yopilmaydi",
+                "To'lov: internet yomon bo'lganda chekni yopish endi qotib qolmaydi va qayta to'lovda dublikat yaratmaydi, chop etish va fiskallashtirish fonda bajariladi",
+                "Ombor qoldiqlari: mahsulot yetishmaganda sotuv to'xtatiladi, mas'ul xodimning PIN-kodi bilan chetlab o'tib sotish mumkin",
+                "Shtrix-kod skaneri: qayta skanerlashdagi nosozlik, fokus yo'qolishi va chiqish tugmasining tasodifan bosilishi tuzatildi, belgilar har qanday klaviatura tartibida to'g'ri o'qiladi",
+                "Tezkor kirish plitkalari: mahsulot nomi ikki qatorda to'liq ko'rinadi, narx kesilmaydi, mahsulot rasmlari tezroq yuklanadi"
             ],
             "en": [
-                "Shift: the shift window now shows debt repayments, cash in the register, change at shift opening and closing, and sales closed from the admin panel",
-                "Payments and receipts: sales complete even if fiscalization fails — receipt data is resent automatically, the payment window stays open on errors, and debts are never lost",
-                "Security: staff PIN codes are stored more securely and unnecessary technical data has been removed from logs",
-                "Stability: fixed a crash when closing a shift or signing in as a cashier, and error messages are clearer, including when the warehouse is unavailable"
+                "Offline mode: the register keeps selling when the connection drops, receipts are stored on the device and sent automatically once the connection is back",
+                "Unsent receipts: a dedicated screen and a window on shift close and sign-out with a summary of receipts, totals and sending status; the shift cannot be closed until receipts are sent",
+                "Payments: closing a receipt no longer hangs on a weak connection and no longer creates duplicates on repeated payment; printing and fiscalization run in the background",
+                "Stock levels: sales stop when an item runs out; a responsible employee can override with their PIN",
+                "Barcode scanner: fixed a crash on repeated scans, focus loss and accidental presses of the exit button; characters are read correctly with any keyboard layout",
+                "Quick access tiles: product names show in full on two lines, prices are no longer cut off, product photos load faster"
             ]
         }
     }
